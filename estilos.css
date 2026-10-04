@@ -202,6 +202,11 @@ p {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.promo-card.highlight {
+    background: linear-gradient(135deg, #f5dfc8, #fffaf6);
+    border-color: rgba(139, 93, 67, 0.18);
+}
+
 .promo-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 16px 22px rgba(58, 39, 29, 0.08);
@@ -212,6 +217,16 @@ p {
     text-align: center;
     color: #6d5145;
     font-weight: 600;
+}
+
+.promo-banner {
+    background: #4c2a1e;
+    color: #f9f3ee;
+    border-radius: 12px;
+    padding: 14px 18px;
+    margin-bottom: 18px;
+    font-weight: 600;
+    text-align: center;
 }
 
 .promo-tag {
