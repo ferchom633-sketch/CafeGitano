@@ -106,6 +106,42 @@ p {
     font-size: 1rem;
 }
 
+.promotions {
+    background: linear-gradient(180deg, rgba(111, 74, 55, 0.06), rgba(111, 74, 55, 0.02));
+}
+
+.promo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 18px;
+}
+
+.promo-card {
+    background: #fffaf6;
+    border: 1px solid rgba(141, 92, 62, 0.1);
+    border-radius: 14px;
+    padding: 18px 16px;
+    box-shadow: 0 10px 18px rgba(58, 39, 29, 0.04);
+}
+
+.promo-tag {
+    display: inline-block;
+    background: #8b5d43;
+    color: #fff;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-radius: 999px;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.promo-card h3 {
+    margin: 0 0 10px;
+    color: #3d291f;
+}
+
 #horarios p,
 #contacto p {
     background: rgba(95, 67, 50, 0.04);
