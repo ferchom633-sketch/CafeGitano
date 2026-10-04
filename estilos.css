@@ -137,7 +137,7 @@ h2 {
 }
 
 .product-card {
-    background: #fff;
+    background: linear-gradient(180deg, #fff 0%, #fffaf6 100%);
     border: 1px solid rgba(103, 72, 57, 0.08);
     border-radius: 14px;
     overflow: hidden;
@@ -148,6 +148,10 @@ h2 {
 .product-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 16px 24px rgba(58, 39, 29, 0.1);
+}
+
+.product-card .product-info {
+    border-top: 1px solid rgba(103, 72, 57, 0.06);
 }
 
 .product-card img {
@@ -234,6 +238,10 @@ p {
     border-left: 4px solid #8b5d43;
     border-radius: 0 10px 10px 0;
     padding: 10px 14px;
+}
+
+#contacto {
+    background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(245, 236, 225, 0.95));
 }
 
 @media (max-width: 600px) {
